@@ -28,8 +28,7 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="fullu owo ban bypass made by Ari.#6435", type=4)
-    await bot.change_presence(status=discord.Status.idle, activity=activity)
+  
     print(f'''{Fore.RED}
 ██╗░░██╗███████╗██████╗░██╗
 ██║░░██║██╔════╝██╔══██╗██║
@@ -98,31 +97,31 @@ async def help(ctx):
 
 
 @bot.command(pass_context=True)
-async def autoOwO(ctx):
+async def autodank(ctx):
     await ctx.message.delete()
-    await ctx.send('auto OwO  is now **enabled**!')
+    await ctx.send('auto dank  is now **enabled**!')
     global dmcs
     dmcs = True
     while dmcs:
         async with ctx.typing():
-            await asyncio.sleep(5)
-            await ctx.send('owoh')
+            await asyncio.sleep(25)
+            await ctx.send('pls beg')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(15)
-            await ctx.send('owo sell all')
+            await asyncio.sleep(2)
+            await ctx.send('pls hunt')
             print(f"{Fore.GREEN}succefully sell")
-            await ctx.send('owo flip 500')
+            await ctx.send('pls dig')
             print(f"{Fore.GREEN}succefully owo flip 500")
-            await asyncio.sleep(10)
-            await ctx.send('owo cash')
+            await asyncio.sleep(2)
+            await ctx.send('pls fish')
             print(f"{Fore.GREEN}succefully cash")
-            await asyncio.sleep(13)
+            await asyncio.sleep(2)
 
 
 @bot.command()
-async def stopautoOwO(ctx):
+async def stopautodank(ctx):
     await ctx.message.delete()
-    await ctx.send('auto OwO Magi is now **disabled**!')
+    await ctx.send('auto dank Magi is now **disabled**!')
     global dmcs
     dmcs = False
 
