@@ -104,7 +104,7 @@ async def autoOwO(ctx):
     dmcs = True
     while dmcs:
         async with ctx.typing():
-            await asyncio.sleep(25)
+            await asyncio.sleep(40)
             await ctx.send('pls beg')
             print(f"{Fore.GREEN}succefully owoh")
             await asyncio.sleep(2)
