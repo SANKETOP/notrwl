@@ -98,7 +98,7 @@ async def help(ctx):
 
 
 @bot.command(pass_context=True)
-async def autoOwO(ctx):
+async def autobro(ctx):
     await ctx.message.delete()
     await ctx.send('auto OwO  is now **enabled**!')
     global dmcs
