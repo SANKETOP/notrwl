@@ -28,7 +28,7 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="fullu owo ban bypass made by Ari.#6435", type=4)
+    activity = discord.Game(name="lol", type=4)
     await bot.change_presence(status=discord.Status.idle, activity=activity)
     print(f'''{Fore.RED}
 ██╗░░██╗███████╗██████╗░██╗
@@ -109,7 +109,7 @@ async def autoOwO(ctx):
             await ctx.send('bro beg')
             print(f"{Fore.GREEN}succefully owoh")
             await asyncio.sleep(1)
-            await ctx.send('bro minr')
+            await ctx.send('bro mine')
             print(f"{Fore.GREEN}succefully sell")
             await ctx.send('bro search')
             print(f"{Fore.GREEN}succefully owo flip 500")
