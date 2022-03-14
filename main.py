@@ -105,18 +105,18 @@ async def autoOwO(ctx):
     dmcs = True
     while dmcs:
         async with ctx.typing():
-            await asyncio.sleep(5)
-            await ctx.send('owoh')
+            await asyncio.sleep(40)
+            await ctx.send('bro beg')
             print(f"{Fore.GREEN}succefully owoh")
-            await asyncio.sleep(15)
-            await ctx.send('owo sell all')
+            await asyncio.sleep(1)
+            await ctx.send('bro minr')
             print(f"{Fore.GREEN}succefully sell")
-            await ctx.send('owo flip 500')
+            await ctx.send('bro search')
             print(f"{Fore.GREEN}succefully owo flip 500")
-            await asyncio.sleep(10)
-            await ctx.send('owo cash')
+            await asyncio.sleep(1)
+            await ctx.send('bro s find')
             print(f"{Fore.GREEN}succefully cash")
-            await asyncio.sleep(13)
+            await asyncio.sleep(3)
 
 
 @bot.command()
